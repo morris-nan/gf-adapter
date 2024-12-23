@@ -5,7 +5,7 @@ import (
 	"github.com/casbin/casbin/v2/model"
 	"github.com/casbin/casbin/v2/persist"
 	"github.com/morris-nan/gf-adapter/internal/dao"
-	"github.com/morris-nan/gf-adapter/internal/model/entity"
+	"github.com/morris-nan/gf-adapter/model/entity"
 )
 
 func NewAdapter(ctx context.Context) *Adapter {
